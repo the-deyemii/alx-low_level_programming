@@ -2,9 +2,9 @@
 
 /** Progrm that prints size of various data types
  *
- * main + Entry point
+ * main - Entry point
  *
- * Return value = 0
+ * Return: 0
  */
 int main(void)
 {
@@ -18,6 +18,6 @@ int main(void)
 
 	printf("Size of a float: %f bytes\n");
 
-	return 0;
+	return (0);
 }
 
