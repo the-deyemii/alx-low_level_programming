@@ -1,14 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- * Return: baba yin
+ *main - print 0123456789
+ *Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int u = 0;
-		for (u = 0; u <= 9; u++)
-			printf("%d", u);
-		printf("\n");
-		
-		return (0);
+	int n = 0;
+
+	while (n < 10)
+	{
+		printf("%i", n);
+		n++;
+	}
+	putchar('\n');
+
+	return (0);
 }
