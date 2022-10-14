@@ -9,6 +9,6 @@ int main(void)
 		for (u = 0; u <= 9; u++)
 			printf("%d", u);
 		printf("\n");
-				
-				return (0);
+		
+		return (0);
 }
