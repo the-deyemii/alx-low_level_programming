@@ -1,19 +1,19 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * return: una papa
+ * Return: Una papa
  */
 
 int main(void)
 {
         char ch = 'a';
-       char ax = 'A';
-       for (ax = 'A'; ch <= 'Z'; ch++)
-              putchar(ax);
-       
-       	for (ch = 'a'; ch <= 'z'; ch++)
-              putchar(ch);
+	char ax = 'A';
 
-       	putchar('\n');
+        for (ch = 'a'; ch <= 'z'; ch++)
+                putchar(ch);
+	for (ax = 'A'; ax <= 'Z'; ax++)
+		putchar(ax);
+
+        putchar('\n');
         return (0);
 }
