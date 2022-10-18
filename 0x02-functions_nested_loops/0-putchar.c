@@ -1,5 +1,5 @@
 #include <stdio.h>
-void skrr(char *c);
+void task0(char *c);
 
 /**
  * main - Entry point
@@ -9,13 +9,16 @@ int main(void)
 {
 	char c[] = "_putchar";
 
-	skrr(c);
+	task0(c);
 	putchar('\n');
 	return (0);
 }
+/**
+ * main - don't stress me
+ * Return: una papa
+ */
 
-
-void skrr(char *c)
+void task0(char *c)
 {
 	int i = 0;
 
