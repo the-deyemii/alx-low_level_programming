@@ -1,4 +1,4 @@
-void task0(char *a)
+void task0(char [a])
 {
 	int i = 0;
 
@@ -8,3 +8,13 @@ void task0(char *a)
 		i++;
 	}
 }
+
+
+
+void print_alphabet(void)
+{
+	char b  = 'a';
+
+	for (b = 'a'; b <= 'z'; ++b)
+		putchar(b);
+}	
