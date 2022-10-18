@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "1main.h"
+#include "main.h"
 /**
  * main - Check my code
  * Return: LGBTQ+
