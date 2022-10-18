@@ -1,28 +1,27 @@
 #include <stdio.h>
-#include "main.h"
-void task0(char *c)
-/**
- * main - Header file
- * Return: First one down
- */
+void skrr(char *c);
 
+/**
+ * main - Entry point
+ * Return: kkk klan
+ */
 int main(void)
 {
 	char c[] = "_putchar";
 
-	task0(c);
+	skrr(c);
 	putchar('\n');
 	return (0);
 }
 
 
-void task0(char [a])
+void skrr(char *c)
 {
-        int i = 0;
+	int i = 0;
 
-        while (a[i] != '\0')
-        {
-                putchar(a[i]);
-                i++;
-        }
+	while  (c[i] != '\0')
+	{
+		putchar(c[i]);
+		i++;
+	}
 }
