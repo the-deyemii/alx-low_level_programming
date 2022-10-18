@@ -14,8 +14,8 @@ int main(void)
 	return (0);
 }
 /**
- * main - don't stress me
- * Return: una papa
+ * task0 - don't stress me
+ * @c: una papa
  */
 
 void task0(char *c)

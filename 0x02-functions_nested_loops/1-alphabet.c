@@ -11,4 +11,17 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-	
+
+/**
+ * print_alphabet - prints alphabet
+ *
+ * Return koshi plix
+ */
+
+void print_alphabet(char v)
+{
+	for (v = 'a'; v <= 'z'; v++)
+	{
+		putchar(v);
+	}
+}
