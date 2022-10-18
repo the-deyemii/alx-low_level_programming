@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include "main.h"
+#include "1main.h"
 /**
  * main - Check my code
  * Return: LGBTQ+
  */
 int main(void)
 {
-	void v = 'a';
+	char v = 'a';
 	print_alphabet(v);
 	putchar('\n');
 	return (0);
