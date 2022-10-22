@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_triangle - prints triangle
@@ -8,7 +8,7 @@
 void print_triangle(int size)
 {
 	int i;
-	int j;
+	int j;	
 	int k;
 
 	if (size <= 0)
