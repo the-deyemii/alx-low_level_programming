@@ -1,19 +1,20 @@
+#include "main.h"
+
 /**
- * print_rev: reverse printing
- * @*str: piece of dhit
- * Return: ues, os courf!
+ * print_rev - function
+ * @s: parameter
  */
-#include <string.h>
 void print_rev(char *s)
 {
+	int a = 0;
+	int b;
 
-
-    int i, len, temp;
-    len = strlen(s); 
-    for (i = 0; i < len/2; i++)
-    {
-        temp = s[i];
-        s[i] = s[len - i - 1];
-        s[len - i - 1] = temp;
-    }
+	for (b = 0; s[b] != 0; b++)
+	{
+	}
+	for (a = b - 1; a >= 0; a--)
+	{
+		_putchar(s[a]);
+	}
+	_putchar('\n');
 }
