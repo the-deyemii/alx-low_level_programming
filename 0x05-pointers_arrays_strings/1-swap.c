@@ -1,6 +1,7 @@
 /**
- * swap_int: udjjc
+ * swap_int - udjjc
  * @b: curdes
+ * @a: fuck uouu
  * Return: zhut up olwase.
  */
 

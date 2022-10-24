@@ -1,6 +1,6 @@
 /**
- * reset_to_98: jdjjcjf
- * @*n: kkdhi danu
+ * reset_to_98 - jdjjcjf
+ * @n: kkdhi danu
  *Return: koshi danu
  *
  */
