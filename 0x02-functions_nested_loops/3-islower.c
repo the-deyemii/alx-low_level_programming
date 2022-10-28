@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- * _islower(char c) - checkd for lowercase letters
+ * _islower - checkd for lowercase letters
+ * @c - parameter
  * Return: koni dafun yin
  */
 
 int _islower(int c)
 {
-	c = 'a';
-
-	if (c <= 'z')
+	if (c >= 97 && c <= 'z')
 	{
 		_putchar('1');
 	}
