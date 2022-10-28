@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - checkd for lowercase letters
- * @c - parameter
+ * @c: parameter
  * Return: koni dafun yin
  */
 
