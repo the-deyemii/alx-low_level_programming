@@ -5,7 +5,7 @@
  * Return: Success
  */
 
-int _abs(int i);
+int _abs(int i)
 {
 	i = abs(i);
 	return (i);
