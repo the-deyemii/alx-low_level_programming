@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * jack_bauer - clock timer
@@ -22,5 +23,5 @@ void jack_bauer(void)
 			minute = 0;
 		}
 	}
-	return (0);
+	return;
 }

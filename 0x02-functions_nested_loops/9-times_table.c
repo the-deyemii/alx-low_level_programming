@@ -10,16 +10,16 @@
 
 void times_table(void)
 {
-	int a = 0; b, c, d;
-	for (b = 0, b < 10, b++)
+	int num = 0, res, i, j;
+	for(i = 0; i < 9; i++)
 	{
-		for (c = 0, c <= 9, c++)
+		for(j = 0; j <= 9; j++)
 		{
-			d = a * c;
-			printf("%d ", d);
+			res = num * j;
+			printf("%d  ", res);
 		}
 		printf("\n");
-		a++;
+		num++;
 	}
-	return (0);
+	return;
 }
