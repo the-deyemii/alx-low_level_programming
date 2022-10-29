@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add - add to integers
+ * add - add
  * @a: para
  * @b: spgjvg
  * @add: eter

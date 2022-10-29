@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * jack_bauer - clock timer
- * @hour:g
- * @minute:f
+ * @ho:f
+ * @minu:j
  */
 
 void jack_bauer(void)
