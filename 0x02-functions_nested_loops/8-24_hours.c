@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * jack_bauer - clock timer
- * @hour: pahssf
- * @minute: dkckff
+ * @hour: psf
+ * @minute: dff
  */
 
 void jack_bauer(void)
@@ -16,12 +16,10 @@ void jack_bauer(void)
 	{
 		printf("%02d:%02d", hour, minute);
 		minute++;
-		_putchar('\n');
-		if (minute ==60)
-		{
+		putchar('\n');
+		if (minute == 60)
+	
 			hour += 1;
 			minute = 0;
-		}
 	}
-	return;
 }
