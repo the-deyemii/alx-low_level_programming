@@ -11,6 +11,7 @@ int main(void)
 	int i, n;
 	int t1 = 0, t2 = 1;
 	int next_term;
+
 	n = 50;
 	next_term = t1 + t2;
 
@@ -25,7 +26,7 @@ int main(void)
 		{
 			printf("%d", next_term);
 		}
-	}	
+	}
 	printf("\n");
 	return (EXIT_SUCCESS);
 }
