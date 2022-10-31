@@ -9,22 +9,22 @@
 int main(void)
 {
 	int i, n;
-	int t1 = 0, t2 = 1;
-	int next_term;
+	long t1 = 0, t2 = 1;
+	long next_term;
 
 	n = 50;
 	next_term = t1 + t2;
 
 	for (i = 3; i <= n; i++)
 	{
-		printf("%d, ", next_term);
+		printf("%ld, ", next_term);
 		t1 = t2;
 		t2 = next_term;
 		next_term = t1 + t2;
 
 		if (n == 50)
 		{
-			printf("%d", next_term);
+			printf("%ld", next_term);
 		}
 	}
 	printf("\n");
