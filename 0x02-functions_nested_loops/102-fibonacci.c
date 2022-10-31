@@ -24,7 +24,8 @@ int main(void)
 
 		if (next_term == 32951280099)
 		{
-			printf("%ld", next_term);
+			/*printf("%ld", next_term);*/
+			break;
 		}
 	}
 	printf("\n");
