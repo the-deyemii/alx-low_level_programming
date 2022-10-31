@@ -12,7 +12,7 @@ int main(void)
 	long t1 = 0, t2 = 1;
 	long next_term;
 
-	n = 50;
+	n = 52;
 	next_term = t1 + t2;
 
 	for (i = 3; i <= n; i++)
@@ -22,7 +22,7 @@ int main(void)
 		t2 = next_term;
 		next_term = t1 + t2;
 
-		if (n == 50)
+		if (next_term == 32951280099)
 		{
 			printf("%ld", next_term);
 		}
