@@ -2,10 +2,6 @@
 #include "main.h"
 /**
  * times_table - ehat it days
- * @j:hh
- * @i:ui
- * @res: tyy
- * @num:dy
  * Return: lessed
  */
 
@@ -20,7 +16,7 @@ void times_table(void)
 			res = num * j;
 			printf("%d,  ", res);
 		}
-		if (i == 9)
+		while (i == 9)
 		{
 			printf("%d", res);
 		}
