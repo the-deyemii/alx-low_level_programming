@@ -22,9 +22,9 @@ int main(void)
 		t2 = next_term;
 		next_term = t1 + t2;
 
-		if (next_term == 32951280099)
+		if (next_term == 20365011074)
 		{
-			/*printf("%ld", next_term);*/
+			printf("%ld", next_term);
 			break;
 		}
 	}
