@@ -6,8 +6,9 @@
 
 void print_alphabet_x10(void)
 {
-	int x = 0, y;
-	
+	int y;
+	int x = 0;
+
 	while (x < 10)
 	{
 		y = 'a';
