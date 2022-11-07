@@ -37,13 +37,13 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	/**
-	 * if (b == 0)
+
+	i = malloc((sizeof(char) * b) + 1);
+
+	if (i == NULL)
 	{
 		return (NULL);
 	}
-	*/
-	i = malloc((sizeof(char) * b) + 1);
 
 	for (a = 0; str[a] != '\0'; a++)
 	{
