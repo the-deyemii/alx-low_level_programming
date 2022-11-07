@@ -49,5 +49,9 @@ char *_strdup(char *str)
 	{
 		i[a] = str[a];
 	}
-	return (i);
+	if (i != NULL)
+	{
+		return (i);
+	}
+	return (0);
 }
