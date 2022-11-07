@@ -29,11 +29,21 @@ char *_strdup(char *str)
 	int a;
 	int b = _strlen(str);
 
-	if (b == 0)
+	if (*str == '\0')
+	{
+		_putchar('\n');
+	}
+	if (str == NULL)
 	{
 		return (NULL);
 	}
-	i = malloc(sizeof(char) * b);
+	/**
+	 * if (b == 0)
+	{
+		return (NULL);
+	}
+	*/
+	i = malloc((sizeof(char) * b) + 1);
 
 	for (a = 0; str[a] != '\0'; a++)
 	{
