@@ -20,14 +20,24 @@ int _strlen(char *s)
  * _strdup - does this and that
  * @str: parameter
  *
- * Description: 
+ * Description: what it does
  * Return: pointer to a copy of given string as parameter
  */
 char *_strdup(char *str)
 {
-	if (_strlen(str) == 0)
+	char *i;
+	int a;
+	int b = _strlen(str);
+
+	if (b == 0)
 	{
 		return (NULL);
 	}
-	malloc(sizeof(char) * i)
+	i = malloc(sizeof(char) * b);
 
+	for (a = 0; str[a] != '\0'; a++)
+	{
+		i[a] = str[a];
+	}
+	return (i);
+}
