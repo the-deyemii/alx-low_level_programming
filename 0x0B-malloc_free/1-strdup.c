@@ -31,7 +31,7 @@ char *_strdup(char *str)
 
 	if (*str == '\0')
 	{
-		_putchar('\n');
+		/*_putchar('\n');*/
 	}
 	if (str == NULL)
 	{
@@ -49,5 +49,5 @@ char *_strdup(char *str)
 	{
 		i[a] = str[a];
 	}
-	return (0);
+	return (i);
 }
