@@ -31,7 +31,6 @@ char *_strdup(char *str)
 
 	if (*str == '\0')
 	{
-		/*_putchar('\n');*/
 	}
 	if (str == NULL)
 	{
@@ -48,10 +47,6 @@ char *_strdup(char *str)
 	for (a = 0; str[a] != '\0'; a++)
 	{
 		i[a] = str[a];
-	}
-	if (i == NULL)
-	{
-		return (NULL);
 	}
 	if (i != NULL)
 	{
