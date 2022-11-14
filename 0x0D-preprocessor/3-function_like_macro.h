@@ -9,6 +9,6 @@
  * Return: 0 (Success) or 1 (Failure).
  */
 int _putchar(char c);
-#define ABS(x) (((x) < 0) ? (-x) : (x))
+#define ABS(x) ((x) < 0 ? -1 * (x) : (x))
 
 #endif
