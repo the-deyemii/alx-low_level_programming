@@ -22,21 +22,17 @@ sum = 0;
 for (i = 0; i < n; i++)
 {
 sum = va_arg(ap, char*);
-if (separator == NULL)
+if (sum !=  NULL)
 {
 printf("%s", sum);
-}
-else if (sum == NULL)
-{
-printf("(nil)%s", separator);
 }
 else
 {
-printf("%s", sum);
-if (i != n - 1)
+printf("(nil)");
+}
+if (i != n - 1 && separator != NULL)
 {
 printf("%s", separator);
-}
 }
 }
 printf("\n");
