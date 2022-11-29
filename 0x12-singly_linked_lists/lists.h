@@ -10,7 +10,7 @@
  */
 
 /**
- * struct list_s - singly linked list
+ * list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
