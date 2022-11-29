@@ -10,7 +10,7 @@
  */
 
 /**
- * struct list_s- singly linked list
+ * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
  * @next: points to the next node
@@ -23,6 +23,7 @@ char *str;
 unsigned int len;
 struct list_s *next;
 } list_t;
+
 int _strlen(const char *s);
 int _putchar(char c);
 size_t print_list(const list_t *h);
