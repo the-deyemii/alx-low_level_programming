@@ -14,4 +14,4 @@ syscall
 
 section .rodata
 msg: db "Hello, Holberton", 10
-msflen: equ $ - msg
+msglen: equ $ - msg
