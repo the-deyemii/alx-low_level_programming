@@ -20,5 +20,4 @@ temp = *head;
 free(temp);
 }
 
-free(head);
 }
