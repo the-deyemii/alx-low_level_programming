@@ -8,6 +8,7 @@
  * the ALX tool tester if removed.
  * Return: 0 (Success) or 1 (Failure).
  */
+ int _putchar(char c);
 
 /**
  * struct list_s - singly linked list
@@ -25,7 +26,6 @@ struct list_s *next;
 } list_t;
 
 int _strlen(const char *s);
-int _putchar(char c);
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
