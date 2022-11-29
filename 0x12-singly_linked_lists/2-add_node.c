@@ -23,11 +23,31 @@ return (NULL);
 }
 
 temp->str = strdup(str);
-temp->len = strlen(str);
+temp->len = _strlen(str);
 temp->next = *head;
 
 return (temp);
 
 }
 return (0);
+}
+
+/**
+ * _strlen - returns length of string
+ * @s: string to count
+ * 
+ * Description: what i said it does
+ * Return: string length
+ */
+int _strlen(const char *s)
+{
+int c = 0;
+
+while(*s)
+{
+s++;
+c++;
+}
+
+return (c);
 }
