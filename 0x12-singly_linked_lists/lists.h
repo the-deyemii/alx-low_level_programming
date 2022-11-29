@@ -8,7 +8,7 @@
  * the ALX tool tester if removed.
  * Return: 0 (Success) or 1 (Failure).
  */
- int _putchar(char c);
+int _putchar(char c);
 
 /**
  * struct list_s - singly linked list
