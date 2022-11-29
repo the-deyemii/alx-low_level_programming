@@ -4,10 +4,10 @@
 #include "lists.h"
 
 /**
- * add_node_end - Adds a node to the end of the list
+ * add_node_end- Adds a node to the end of the list
  * @head: original linked list
  * @str: string to add to the node
- * 
+ *
  * Description: what it says it does
  * Return: the address of the new list or NULL if it fails.
  */
@@ -18,7 +18,7 @@ list_t *new_list, *temp;
 if (str != NULL)
 {
 new_list = malloc(sizeof(list_t));
-if (new_list ==NULL)
+if (new_list == NULL)
 {
 return (NULL);
 }
@@ -31,7 +31,8 @@ if (*head == NULL)
 {
 *head = new_list;
 return (*head);
-}else
+}
+else
 {
 temp = *head;
 while (temp->next)
@@ -47,7 +48,7 @@ return (NULL);
 }
 
 /**
- * _strlenreturns the length of a string
+ * _strlen - returns the length of a string
  *@s: string to count
  *
  * Return: string length

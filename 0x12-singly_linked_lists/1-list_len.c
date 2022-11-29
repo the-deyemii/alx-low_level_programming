@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- * list_len - Show number of elements of a list
+ * list_len- Show number of elements of a list
  * @h: linked list
  *
  * Description: what i said it does
@@ -11,13 +11,13 @@
  */
 size_t list_len(const list_t *h)
 {
-size_t len = 0;
+size_t length = 0;
 
 while(h)
 {
 h = h->next;
-len++;
+length++;
 }
 
-return (len);
+return (length);
 }

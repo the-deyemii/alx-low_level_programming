@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * free_list frees a linked list
+ * free_list- frees a linked list
  * @head: the pointer to the first node of the list
- * 
+ *
  * Return: Nothing
  */
 void free_list(list_t *head)
