@@ -13,12 +13,14 @@
 int get_bit(unsigned long int n, unsigned int index)
 {
 unsigned int bit_value;
-unsigned int i = 0;
+unsigned int i;
+i = (sizeof(unsigned long int) * 8);
 
-if (index >= i)
+if (index > i)
 {
-bit_value = (n >> index) & 1;
-return (bit_value);
-}
 return (-1);
+}
+bit_value = (n >> index) & 1;
+
+return (bit_value);
 }
