@@ -12,7 +12,7 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-unsigned int bit_value;
+int bit_value;
 unsigned int i;
 i = (sizeof(unsigned long int) * 8);
 
